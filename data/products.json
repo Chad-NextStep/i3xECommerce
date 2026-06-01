@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "slug": "oh-the-standards-youll-meet",
+        "type": "book",
+        "category": "books",
+        "name": "Oh, the Standards You'll Meet",
+        "description": "A whimsical, children's-style illustrated book that takes readers on a lighthearted journey through the world of smart manufacturing standards. From OPC UA to ISA-95, MTConnect to MQTT, discover the challenges and triumphs of industrial interoperability — told with rhymes, colorful characters, and plenty of humor.",
+        "short_description": "A fun children's-style book on the challenges in smart manufacturing.",
+        "price_cents": 2000,
+        "currency": "usd",
+        "featured": true,
+        "images": [
+            "/assets/images/oh-the-standards-youll-meet.png"
+        ],
+        "metadata": {
+            "author": "Matthew Parris",
+            "format": "Hardcover"
+        },
+        "variant_axes": [],
+        "variants": [
+            {
+                "sku": "BOOK-OTSYM-001",
+                "label": "Hardcover",
+                "price_cents": 2000,
+                "attributes": {}
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "slug": "i3x-developer-tee",
+        "type": "t-shirt",
+        "category": "t-shirts",
+        "name": "i3x Developer Tee",
+        "description": "A premium cotton t-shirt featuring the i3x logo and a minimalist code snippet design on the back. Pre-shrunk, comfortable fit perfect for long coding sessions.",
+        "short_description": "Premium cotton tee with the i3x developer design.",
+        "price_cents": 2800,
+        "currency": "usd",
+        "featured": true,
+        "images": [
+            "/assets/images/i3x-developer-tee.jpg"
+        ],
+        "metadata": {
+            "material": "100% Combed Ring-Spun Cotton",
+            "fit": "Regular",
+            "weight": "4.2 oz"
+        },
+        "variant_axes": ["color", "size"],
+        "variants": [
+            { "sku": "TEE-DEV-BLK-S", "label": "Black / S", "price_cents": 2800, "attributes": { "color": "Black", "size": "S" } },
+            { "sku": "TEE-DEV-BLK-M", "label": "Black / M", "price_cents": 2800, "attributes": { "color": "Black", "size": "M" } },
+            { "sku": "TEE-DEV-BLK-L", "label": "Black / L", "price_cents": 2800, "attributes": { "color": "Black", "size": "L" } },
+            { "sku": "TEE-DEV-BLK-XL", "label": "Black / XL", "price_cents": 2800, "attributes": { "color": "Black", "size": "XL" } },
+            { "sku": "TEE-DEV-NVY-S", "label": "Navy / S", "price_cents": 2800, "attributes": { "color": "Navy", "size": "S" } },
+            { "sku": "TEE-DEV-NVY-M", "label": "Navy / M", "price_cents": 2800, "attributes": { "color": "Navy", "size": "M" } },
+            { "sku": "TEE-DEV-NVY-L", "label": "Navy / L", "price_cents": 2800, "attributes": { "color": "Navy", "size": "L" } },
+            { "sku": "TEE-DEV-NVY-XL", "label": "Navy / XL", "price_cents": 2800, "attributes": { "color": "Navy", "size": "XL" } },
+            { "sku": "TEE-DEV-GRY-S", "label": "Heather Gray / S", "price_cents": 2800, "attributes": { "color": "Heather Gray", "size": "S" } },
+            { "sku": "TEE-DEV-GRY-M", "label": "Heather Gray / M", "price_cents": 2800, "attributes": { "color": "Heather Gray", "size": "M" } },
+            { "sku": "TEE-DEV-GRY-L", "label": "Heather Gray / L", "price_cents": 2800, "attributes": { "color": "Heather Gray", "size": "L" } },
+            { "sku": "TEE-DEV-GRY-XL", "label": "Heather Gray / XL", "price_cents": 2800, "attributes": { "color": "Heather Gray", "size": "XL" } }
+        ]
+    },
+    {
+        "id": 4,
+        "slug": "binary-tree-tee",
+        "type": "t-shirt",
+        "category": "t-shirts",
+        "name": "Binary Tree Tee",
+        "description": "Show off your love of data structures with this artistic binary tree design. Features a hand-drawn tree illustration with nodes containing real algorithm snippets.",
+        "short_description": "Artistic binary tree design for data structure enthusiasts.",
+        "price_cents": 2800,
+        "currency": "usd",
+        "featured": false,
+        "images": [
+            "/assets/images/binary-tree-tee.jpg"
+        ],
+        "metadata": {
+            "material": "60% Cotton / 40% Polyester",
+            "fit": "Relaxed",
+            "weight": "4.5 oz"
+        },
+        "variant_axes": ["color", "size"],
+        "variants": [
+            { "sku": "TEE-BT-WHT-S", "label": "White / S", "price_cents": 2800, "attributes": { "color": "White", "size": "S" } },
+            { "sku": "TEE-BT-WHT-M", "label": "White / M", "price_cents": 2800, "attributes": { "color": "White", "size": "M" } },
+            { "sku": "TEE-BT-WHT-L", "label": "White / L", "price_cents": 2800, "attributes": { "color": "White", "size": "L" } },
+            { "sku": "TEE-BT-WHT-XL", "label": "White / XL", "price_cents": 2800, "attributes": { "color": "White", "size": "XL" } },
+            { "sku": "TEE-BT-BLK-S", "label": "Black / S", "price_cents": 2800, "attributes": { "color": "Black", "size": "S" } },
+            { "sku": "TEE-BT-BLK-M", "label": "Black / M", "price_cents": 2800, "attributes": { "color": "Black", "size": "M" } },
+            { "sku": "TEE-BT-BLK-L", "label": "Black / L", "price_cents": 2800, "attributes": { "color": "Black", "size": "L" } },
+            { "sku": "TEE-BT-BLK-XL", "label": "Black / XL", "price_cents": 2800, "attributes": { "color": "Black", "size": "XL" } }
+        ]
+    },
+    {
+        "id": 5,
+        "slug": "i3x-holographic-sticker",
+        "type": "sticker",
+        "category": "stickers",
+        "name": "i3x Holographic Logo Sticker",
+        "description": "Eye-catching holographic sticker featuring the i3x logo. Waterproof and UV-resistant, perfect for laptops, water bottles, and phone cases. Made from premium vinyl with a strong adhesive backing.",
+        "short_description": "Holographic i3x logo sticker — waterproof and durable.",
+        "price_cents": 499,
+        "currency": "usd",
+        "featured": true,
+        "images": [
+            "/assets/images/i3x-holographic-sticker.jpg"
+        ],
+        "metadata": {
+            "finish": "Holographic",
+            "waterproof": true,
+            "material": "Premium Vinyl"
+        },
+        "variant_axes": ["dimensions"],
+        "variants": [
+            { "sku": "STK-HOLO-3", "label": "3\" × 3\"", "price_cents": 499, "attributes": { "dimensions": "3\" × 3\"" } },
+            { "sku": "STK-HOLO-4", "label": "4\" × 4\"", "price_cents": 699, "attributes": { "dimensions": "4\" × 4\"" } }
+        ]
+    },
+    {
+        "id": 6,
+        "slug": "dev-sticker-pack",
+        "type": "sticker",
+        "category": "stickers",
+        "name": "Developer Sticker Pack",
+        "description": "A collection of 6 developer-themed stickers including Git commands, keyboard shortcuts, and programming humor. All stickers are waterproof with a matte finish for a clean, professional look.",
+        "short_description": "Pack of 6 developer-themed matte stickers.",
+        "price_cents": 1299,
+        "currency": "usd",
+        "featured": false,
+        "images": [
+            "/assets/images/dev-sticker-pack.jpg"
+        ],
+        "metadata": {
+            "finish": "Matte",
+            "waterproof": true,
+            "material": "Premium Vinyl",
+            "count": 6
+        },
+        "variant_axes": ["dimensions"],
+        "variants": [
+            { "sku": "STK-DEVPK-SM", "label": "Small (2\" each)", "price_cents": 1299, "attributes": { "dimensions": "2\" each" } },
+            { "sku": "STK-DEVPK-LG", "label": "Large (3\" each)", "price_cents": 1599, "attributes": { "dimensions": "3\" each" } }
+        ]
+    }
+]

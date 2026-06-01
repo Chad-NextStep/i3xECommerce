@@ -1,0 +1,20 @@
+[
+    {
+        "slug": "books",
+        "name": "Books",
+        "description": "Expand your mind with our curated collection of technical and creative books.",
+        "sort_order": 1
+    },
+    {
+        "slug": "t-shirts",
+        "name": "T-Shirts",
+        "description": "Premium quality tees with unique designs for developers and creators.",
+        "sort_order": 2
+    },
+    {
+        "slug": "stickers",
+        "name": "Stickers",
+        "description": "Durable vinyl stickers to personalize your laptop, water bottle, and more.",
+        "sort_order": 3
+    }
+]
