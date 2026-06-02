@@ -141,4 +141,10 @@ file_put_contents($public_dir . '/checkout/cancel/index.html', $html);
 echo "  [+] /checkout/cancel/index.html\n";
 $count++;
 
+// Copy favicon to public root
+if (file_exists(ROOT_DIR . '/favicon.ico')) {
+    copy(ROOT_DIR . '/favicon.ico', $public_dir . '/favicon.ico');
+    echo "  [+] /favicon.ico\n";
+}
+
 echo "\nBuild complete: {$count} pages generated.\n";
