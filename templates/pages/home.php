@@ -4,7 +4,7 @@
 
 <!-- Hero -->
 <section class="relative overflow-hidden" style="background: linear-gradient(to bottom right, rgba(0,160,9,1), rgba(0,54,127,1));">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center relative z-10">
         <img src="/assets/i3x-logo-bw.png" alt="i3X" class="h-16 sm:h-20 mx-auto mb-4 brightness-0 invert">
         <p class="mt-4 text-xl text-green-100 max-w-2xl mx-auto">
             Books, tees, and stickers for developers and creators.
