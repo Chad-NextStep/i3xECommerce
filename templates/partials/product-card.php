@@ -15,9 +15,12 @@ if ($has_variants) {
    class="group block bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md hover:border-brand-green/30 transition-all">
     <?php $img = $product['images'][0] ?? ''; $img_exists = $img && file_exists(ROOT_DIR . '/public' . $img); ?>
     <?php if ($img_exists): ?>
-        <div class="bg-gray-100 p-6 flex items-center justify-center h-48">
+        <div class="bg-gray-100 p-6 flex items-center justify-center h-48 relative">
             <img src="<?= htmlspecialchars($img) ?>" alt="<?= htmlspecialchars($product['name']) ?>"
                  class="h-full object-contain group-hover:scale-105 transition-transform">
+            <?php if ($product['type'] === 'book'): ?>
+                <span class="absolute top-3 right-3 bg-brand-navy text-white text-xs font-bold uppercase px-3 py-1 rounded-pill">Coming Soon</span>
+            <?php endif; ?>
         </div>
     <?php else: ?>
         <div class="bg-gray-100 flex items-center justify-center p-8 h-48">
@@ -45,10 +48,5 @@ if ($has_variants) {
         <p class="text-lg font-bold text-gray-900 mt-3">
             <?= $price_display ?>
         </p>
-        <?php if ($product['type'] === 'book'): ?>
-            <p class="mt-2">
-                <span class="bg-brand-navy text-white text-xs font-bold uppercase px-3 py-1 rounded-pill">Coming Soon</span>
-            </p>
-        <?php endif; ?>
     </div>
 </a>

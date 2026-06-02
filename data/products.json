@@ -63,37 +63,6 @@
         ]
     },
     {
-        "id": 4,
-        "slug": "binary-tree-tee",
-        "type": "t-shirt",
-        "category": "t-shirts",
-        "name": "Binary Tree Tee",
-        "description": "Show off your love of data structures with this artistic binary tree design. Features a hand-drawn tree illustration with nodes containing real algorithm snippets.",
-        "short_description": "Artistic binary tree design for data structure enthusiasts.",
-        "price_cents": 2800,
-        "currency": "usd",
-        "featured": false,
-        "images": [
-            "/assets/images/binary-tree-tee.jpg"
-        ],
-        "metadata": {
-            "material": "60% Cotton / 40% Polyester",
-            "fit": "Relaxed",
-            "weight": "4.5 oz"
-        },
-        "variant_axes": ["color", "size"],
-        "variants": [
-            { "sku": "TEE-BT-WHT-S", "label": "White / S", "price_cents": 2800, "attributes": { "color": "White", "size": "S" } },
-            { "sku": "TEE-BT-WHT-M", "label": "White / M", "price_cents": 2800, "attributes": { "color": "White", "size": "M" } },
-            { "sku": "TEE-BT-WHT-L", "label": "White / L", "price_cents": 2800, "attributes": { "color": "White", "size": "L" } },
-            { "sku": "TEE-BT-WHT-XL", "label": "White / XL", "price_cents": 2800, "attributes": { "color": "White", "size": "XL" } },
-            { "sku": "TEE-BT-BLK-S", "label": "Black / S", "price_cents": 2800, "attributes": { "color": "Black", "size": "S" } },
-            { "sku": "TEE-BT-BLK-M", "label": "Black / M", "price_cents": 2800, "attributes": { "color": "Black", "size": "M" } },
-            { "sku": "TEE-BT-BLK-L", "label": "Black / L", "price_cents": 2800, "attributes": { "color": "Black", "size": "L" } },
-            { "sku": "TEE-BT-BLK-XL", "label": "Black / XL", "price_cents": 2800, "attributes": { "color": "Black", "size": "XL" } }
-        ]
-    },
-    {
         "id": 5,
         "slug": "i3x-holographic-sticker",
         "type": "sticker",
