@@ -40,6 +40,9 @@
     <style>
         body { font-family: 'Work Sans', sans-serif; }
         h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; }
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+        input[type=number] { -moz-appearance: textfield; }
         .aspect-w-1 { position: relative; padding-bottom: 100%; }
         .aspect-w-1 > * { position: absolute; inset: 0; width: 100%; height: 100%; }
     </style>
