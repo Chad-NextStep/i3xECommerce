@@ -67,7 +67,7 @@ $count = 0;
 $html = render_page('home.php', [
     'products'   => $products,
     'categories' => $categories,
-    'page_title' => 'i3x Shop — Books, Tees & Stickers',
+    'page_title' => 'i3x Store — Books, Tees & Stickers',
 ]);
 file_put_contents($public_dir . '/index.html', $html);
 echo "  [+] /index.html\n";
@@ -80,7 +80,7 @@ foreach ($categories as $category) {
         'category'          => $category,
         'category_products' => array_values($category_products),
         'categories'        => $categories,
-        'page_title'        => $category['name'] . ' — i3x Shop',
+        'page_title'        => $category['name'] . ' — i3x Store',
     ]);
     $path = '/category/' . $category['slug'] . '/index.html';
     file_put_contents($public_dir . $path, $html);
@@ -94,7 +94,7 @@ foreach ($products as $product) {
         'product'      => $product,
         'inventory'    => $inventory,
         'categories'   => $categories,
-        'page_title'   => $product['name'] . ' — i3x Shop',
+        'page_title'   => $product['name'] . ' — i3x Store',
         'page_scripts' => ['/assets/js/product.js'],
     ]);
     $path = '/product/' . $product['slug'] . '/index.html';
@@ -106,7 +106,7 @@ foreach ($products as $product) {
 // --- Cart page ---
 $html = render_page('cart.php', [
     'categories'   => $categories,
-    'page_title'   => 'Cart — i3x Shop',
+    'page_title'   => 'Cart — i3x Store',
     'page_scripts' => ['/assets/js/checkout.js'],
 ]);
 file_put_contents($public_dir . '/cart/index.html', $html);
@@ -116,7 +116,7 @@ $count++;
 // --- Checkout page ---
 $html = render_page('checkout.php', [
     'categories'   => $categories,
-    'page_title'   => 'Checkout — i3x Shop',
+    'page_title'   => 'Checkout — i3x Store',
     'page_scripts' => ['/assets/js/checkout.js'],
 ]);
 file_put_contents($public_dir . '/checkout/index.html', $html);
@@ -126,7 +126,7 @@ $count++;
 // --- Checkout success ---
 $html = render_page('checkout-success.php', [
     'categories' => $categories,
-    'page_title' => 'Order Confirmed — i3x Shop',
+    'page_title' => 'Order Confirmed — i3x Store',
 ]);
 file_put_contents($public_dir . '/checkout/success/index.html', $html);
 echo "  [+] /checkout/success/index.html\n";
@@ -135,7 +135,7 @@ $count++;
 // --- Checkout cancel ---
 $html = render_page('checkout-cancel.php', [
     'categories' => $categories,
-    'page_title' => 'Checkout Cancelled — i3x Shop',
+    'page_title' => 'Checkout Cancelled — i3x Store',
 ]);
 file_put_contents($public_dir . '/checkout/cancel/index.html', $html);
 echo "  [+] /checkout/cancel/index.html\n";
