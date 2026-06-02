@@ -11,6 +11,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
+            safelist: [
+                'border-brand-green', 'bg-green-50', 'text-brand-green',
+                'border-gray-300', 'text-gray-700', 'hover:border-brand-green',
+            ],
             theme: {
                 extend: {
                     colors: {
