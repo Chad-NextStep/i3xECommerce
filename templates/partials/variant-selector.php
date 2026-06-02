@@ -31,8 +31,7 @@ foreach ($product['variant_axes'] as $axis) {
             <div class="flex flex-wrap gap-2" data-axis="<?= htmlspecialchars($axis) ?>">
                 <?php foreach ($values as $i => $val): ?>
                     <button type="button"
-                            class="variant-btn px-4 py-2 border rounded-md text-sm font-medium
-                                   <?= $i === 0 ? 'border-brand-green bg-green-50 text-brand-green' : 'border-gray-300 text-gray-700 hover:border-brand-green' ?>"
+                            class="variant-btn px-4 py-2 border rounded-md text-sm font-medium border-gray-300 text-gray-700 hover:border-brand-green"
                             data-axis="<?= htmlspecialchars($axis) ?>"
                             data-value="<?= htmlspecialchars($val) ?>">
                         <?= htmlspecialchars($val) ?>

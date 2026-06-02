@@ -72,14 +72,15 @@ $price_display = '$' . number_format($default_variant['price_cents'] / 100, 2);
             <!-- Stock status -->
             <?php if ($product['type'] !== 'book'): ?>
                 <div id="stock-status" class="mt-4 text-sm">
-                    <?php
-                    $first_sku = $default_variant['sku'];
-                    $stock = $inventory[$first_sku] ?? 0;
-                    ?>
-                    <?php if ($stock > 0): ?>
-                        <span class="text-brand-green font-medium">In Stock (<?= $stock ?> available)</span>
+                    <?php if (empty($product['variant_axes'])): ?>
+                        <?php $stock = $inventory[$default_variant['sku']] ?? 0; ?>
+                        <?php if ($stock > 0): ?>
+                            <span class="text-brand-green font-medium">In Stock (<?= $stock ?> available)</span>
+                        <?php else: ?>
+                            <span class="text-brand-red font-medium">Out of Stock</span>
+                        <?php endif; ?>
                     <?php else: ?>
-                        <span class="text-brand-red font-medium">Out of Stock</span>
+                        <span class="text-gray-400">Select options</span>
                     <?php endif; ?>
                 </div>
             <?php endif; ?>

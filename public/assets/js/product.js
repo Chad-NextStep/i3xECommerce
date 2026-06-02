@@ -23,15 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const axes = JSON.parse(selectorEl.dataset.axes || '[]');
     const selected = {};
 
-    // Initialize with first value of each axis
-    axes.forEach(axis => {
-        const firstBtn = selectorEl.querySelector(`[data-axis="${axis}"]`);
-        if (firstBtn) {
-            selected[axis] = firstBtn.dataset.value;
-        }
-    });
-
-    updateSelectedVariant();
+    // No default selection — user must choose
+    if (addBtn) addBtn.disabled = true;
 
     // Variant button click handlers
     selectorEl.addEventListener('click', (e) => {
@@ -43,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         selected[axis] = value;
 
         // Update button styles for this axis
-        const group = btn.closest('[data-axis]');
+        const group = btn.parentElement;
         group.querySelectorAll('.variant-btn').forEach(b => {
             if (b.dataset.value === value) {
                 b.className = b.className
